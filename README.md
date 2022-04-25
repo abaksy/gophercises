@@ -1,6 +1,6 @@
 # gophercises
 
-My solution to Jon Calhouns [gophercises](https://github.com/gophercises/)
+My solution to Jon Calhoun's [gophercises](https://github.com/gophercises/)
 
 ## ex1: Quiz Game
 
