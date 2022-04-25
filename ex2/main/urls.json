@@ -1,0 +1,10 @@
+[
+    {
+        "path": "/wiki",
+        "url": "https://wikipedia.com"
+    },
+    {
+        "path": "/urlshort",
+        "url": "https://github.com/gophercises/urlshort/"
+    }
+]
