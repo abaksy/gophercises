@@ -1,5 +1,7 @@
 # gophercises
 
+My solution to Jon Calhouns [gophercises](https://github.com/gophercises/)
+
 ## ex1: Quiz Game
 
 A timed quiz game that asks you basic questions and gives you the score after you finish or the quiz times out (whichever comes first).
