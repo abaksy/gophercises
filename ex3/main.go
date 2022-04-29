@@ -49,7 +49,7 @@ func main() {
 		panic(err)
 	}
 
-	for k, _ := range json_data {
+	for k := range json_data {
 		if k != "intro" {
 			url := fmt.Sprintf("/%s", k)
 			mux.Handle(url, storyHandler(json_data, k))
