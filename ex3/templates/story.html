@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Choose Your Own Adventure!</title></head>
+    <body>
+        <h1>{{.Title}}</h1>
+        {{range $index, $element := .Story}}
+            <p>{{ $element }}</p>
+        {{end}}
+
+        {{range $index, $element := .Options}}
+            <p>{{ $element.Text }}</p>
+            <a href="{{ $element.Arc }}">Go here</a>
+        {{end}}
+    </body>
+</html>
