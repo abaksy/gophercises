@@ -16,9 +16,10 @@ func storyHandler(json_data map[string]Chapter, arc string) http.HandlerFunc {
 
 func main() {
 	fileNameFlag := flag.String("f", "gopher.json", "Filename to read story from")
-	var filename string = *fileNameFlag
+	flag.Parse()
 
 	// http.Handle("/story", storyHandler(filename))
+	var filename string = *fileNameFlag
 	mux := http.NewServeMux()
 
 	json_data, err := parseStory(filename)
