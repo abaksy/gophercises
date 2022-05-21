@@ -15,8 +15,16 @@ The shuf argument asks the user whether the questions are to be shuffled on each
 
 ## ex2: URL Redirector
 
-A redictor that uses the `http` package to implement a simple URL Redirector. The program reads input from a JSON or YAML file, and 
+A redirector that uses the `http` package to implement a simple URL Redirector. The program reads input from a JSON or YAML file, and 
 starts a server that redirects when the path is entered in the browser. 
 Build the program using `cd ex2/main; go build main.go` <br>
 Run using :
 `./main -f <filename>`
+
+## ex3: Choose your own adventure
+
+Implement a simple "Choose your own adventure" game on the browser using HTTP templates. The program reads input from a JSON or YAML file whose
+format is described in the help section of the program. 
+Build the program using `cd ex3/; go build` <br>
+Run using :
+`./cyoa -f <filename>`
